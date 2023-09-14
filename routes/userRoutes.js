@@ -6,7 +6,7 @@ const { addUser,getUser,updateUser,deleteUser } = require('../controller/userCon
 
 router.post('/user/add', addUser);
 router.get('/user/get/:id',getUser);
-router.put('user/update/:id',updateUser);
+router.put('/user/update/:id',updateUser);
 router.delete('/user/delete/:id',deleteUser);
 
 module.exports = router;
